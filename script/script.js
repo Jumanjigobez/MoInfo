@@ -35,7 +35,7 @@ const handleSearchMovie = () =>{
         loader.style.display = "flex";
         contents.innerHTML = "";
 
-        fetch(`http://www.omdbapi.com/?s=${search_term}&apikey=907ac560`).then((response)=> response.json())
+        fetch(`https://www.omdbapi.com/?s=${search_term}&apikey=907ac560`).then((response)=> response.json())
         .then((data)=>{
                 loader.style.display = "none";
 
@@ -80,7 +80,7 @@ const handleSearchMovie = () =>{
 //View More Button Functionalities
 const handleViewMore = (id) =>{
     let movie_id = id,
-        api_url = `http://www.omdbapi.com/?i=${movie_id}&apikey=907ac560`;
+        api_url = `https://www.omdbapi.com/?i=${movie_id}&apikey=907ac560`;
     
     loader.style.display = "flex";
     contents.innerHTML = "";    
