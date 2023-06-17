@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jumanji">
+    <link rel="icon" type="image/svg" sizes="50x50" href="images/loader-icon.svg">
+    <title>MoInfo | Get quick Info about Any Movie</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="loading_screen">
+            <img src="images/loader-icon.svg" class="loader_img" alt="Loading Icon">
+        </section>
+        
+        <header id="header">
+            <div class="logo_part">
+                <h1>MoInfo</h1>
+            </div>
+        </header>
+
+        <section id="intro">
+            <div class="text_part">
+                <h2>Welcome to MoInfo <br> Get quick info about <br> Any Movie</h2>
+            </div>
+        </section>
+
+        <section id="search_part">
+            <form class="search_form">
+                <div class="input_part">
+                    <input type="text" name="search" id="search" placeholder="Enter Movie Title..." required>
+                </div>
+
+                <div class="btn_part">
+                    <button type="submit" class="btn" onclick="handleSearchMovie()">Let's Go</button>
+                </div>
+            </form>
+        </section>
+    
+
+        <section id="container">
+            <div class="loader">
+                <img src="images/loader-icon.svg" class="loader_img" alt="Loading Icon">
+            </div>
+            
+            <div class="contents">
+               
+            </div>
+           
+        </section>
+
+        <hr>
+        
+        <footer id="footer">
+            <small>Coded By <a href="https://jumanjigobez.github.io/personal_portfolio/" target="_blank">Jumanji</a></small>
+        </footer>
+    </main>
+</body>
+</html>
