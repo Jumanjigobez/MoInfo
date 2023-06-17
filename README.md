@@ -20,5 +20,10 @@ Dev using simple HTML, CSS and Plain JavaScript
 
 Thanks for Passing By and also for giving the Star :-)
 
+#### Follow Me On
+1. Github - [Follow](https://www.github.com/jumanjigobez/)
+2. Instagram - [Follow](https://www.instagram.com/jumanjicasilas/)
+
+
 
 
