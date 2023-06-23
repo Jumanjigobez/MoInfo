@@ -63,7 +63,7 @@ main{
 #intro{
     width: 100%;
     min-height: 500px;
-    background: url("../images/intro-bg.jpg");
+    background: url("../images/intro-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
